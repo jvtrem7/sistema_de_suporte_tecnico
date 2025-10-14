@@ -12,10 +12,9 @@ import { FormsModule } from '@angular/forms';
 })
 export class LoginComponent {
 
-  // 3. Variáveis para armazenar o email e a senha digitados
   email: string = '';
   senha: string = '';
-  loginInvalido: boolean = false; // Para exibir mensagem de erro
+  loginInvalido: boolean = false; 
 
   constructor(private router: Router) {}
 

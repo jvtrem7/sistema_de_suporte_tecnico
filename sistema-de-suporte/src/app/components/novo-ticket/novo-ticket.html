@@ -1,4 +1,5 @@
 <div class="main-layout">
+  
   <main class="content-area-novo-ticket">
     <header class="novo-ticket-header">
         <div class="header-title">
@@ -7,17 +8,35 @@
         </div>
         
         <button class="btn-create active" *ngIf="!modoEdicao">Criar uma tarefa</button>
-        
         <button class="btn-create active" *ngIf="modoEdicao">
-            Editando Ticket ID: {{ ticketId }}
+            Editando Ticket
         </button>
         
-        <button class="btn-attach">+ Anexar arquivos</button>
-    </header>
+        <input 
+            type="file" 
+            #fileInput 
+            (change)="onFileSelected($event)" 
+            style="display: none;" 
+            multiple> 
+
+        <button class="btn-attach" (click)="fileInput.click()">
+            + Anexar arquivos
+        </button>
+        
+        </header>
+
+    <div class="anexos-info" *ngIf="arquivosSelecionados.length > 0">
+        <p>Arquivos prontos para envio:</p>
+        <ul>
+            <li *ngFor="let file of arquivosSelecionados">
+                {{ file.name }} ({{ file.size / 1024 | number: '1.0-1' }} KB)
+            </li>
+        </ul>
+    </div>
 
     <div class="card-creation">
         <h2 *ngIf="!modoEdicao">Componentes da Criação do Ticket</h2>
-        <h2 *ngIf="modoEdicao">Componentes da Edição do Ticket (ID: {{ ticketId }})</h2>
+        <h2 *ngIf="modoEdicao">Componentes da Edição do Ticket</h2>
 
         <div class="form-grid">
             
@@ -65,9 +84,13 @@
         <div class="form-actions">
             <button class="btn-action btn-fechar" [routerLink]="['/tickets']">Fechar</button>
             
-            <button class="btn-action btn-adicionar" *ngIf="!modoEdicao">Adicionar</button>
+            <button class="btn-action btn-delete" *ngIf="modoEdicao" (click)="deletarTicket()">
+                Deletar Tarefa
+            </button>
+
+            <button class="btn-action btn-adicionar" *ngIf="!modoEdicao" (click)="salvarOuAdicionar()">Adicionar</button>
             
-            <button class="btn-action btn-adicionar" *ngIf="modoEdicao">Salvar Alterações</button>
+            <button class="btn-action btn-adicionar" *ngIf="modoEdicao" (click)="salvarOuAdicionar()">Salvar Alterações</button>
         </div>
     </div>
   </main>

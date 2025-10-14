@@ -1,33 +1,36 @@
-/* ESTRUTURA DE LAYOUT (REPLICADA DO DASHBOARD) */
 
 .main-layout {
-    display: flex; /* Essencial para colocar Sidebar e Conteúdo lado a lado */
+    display: flex; 
     min-height: 100vh;
 }
 
 .sidebar {
     width: 250px;
-    background-color: #8B1C28; /* Cor Principal (Vinho) */
+    background-color: #8B1C28; 
     color: white;
     padding: 10px 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: width 0.3s ease-in-out;
+    flex-shrink: 0; 
 }
 
 .sidebar-header {
     padding: 10px 20px;
+    text-align: center;
 }
 
 .sidebar-nav {
     flex-grow: 1;
-    padding-top: 20px;
+    padding-top: 0; 
 }
 
 .menu-icon-toggle {
     font-size: 1.5em;
     padding: 10px 20px;
     cursor: pointer;
+    margin-bottom: 0; 
 }
 
 .nav-item {
@@ -41,8 +44,8 @@
 }
 
 .nav-item.active {
-    background-color: #A92636; /* Cor ligeiramente mais clara para o item ativo */
-    border-left: 5px solid yellow; /* Linha de destaque para o item ativo */
+    background-color: #A92636; 
+    border-left: 5px solid yellow; 
 }
 
 .btn-sair {
@@ -54,13 +57,43 @@
     cursor: pointer;
 }
 
-
-/* ESTILOS ESPECÍFICOS DA TELA DE TICKETS */
+.sidebar-fechada .sidebar {
+    width: 60px; 
+}
 
 .content-area-tickets {
     flex: 1; 
     background-color: #EFEFEF; 
     padding: 20px;
+    transition: margin-left 0.3s ease-in-out;
+    margin-left: 250px;
+    width: calc(100% - 250px);
+}
+
+.sidebar-fechada .content-area-tickets {
+    margin-left: 60px;
+    width: calc(100% - 60px);
+}
+
+
+.sidebar-fechada .sidebar-nav a,
+.sidebar-fechada .btn-sair,
+.sidebar-fechada .sidebar-header {
+    opacity: 0;
+    visibility: hidden;
+    height: 0; 
+    padding: 0;
+    width: 0; 
+    transition: opacity 0.2s, height 0.2s, width 0.2s; 
+}
+
+.sidebar-fechada .menu-icon-toggle {
+    opacity: 1;
+    visibility: visible;
+    width: 100%; 
+    text-align: center;
+    padding: 10px 0; 
+    height: auto;
 }
 
 .tickets-header {
@@ -70,18 +103,36 @@
     margin-bottom: 20px;
 }
 
-.search-bar {
-    font-size: 1.2em;
+.search-form {
+    display: flex;
+    align-items: center;
     padding: 10px 0;
-    color: #555;
     border-bottom: 1px solid #ccc;
     margin-bottom: 15px;
 }
 
+.search-form input {
+    flex-grow: 1; 
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px; 
+    font-size: 1em;
+}
+
+.btn-search {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0; 
+    height: 36px; 
+}
+
 .actions {
     display: flex;
-    /* Alinha os itens do cabeçalho horizontalmente  */
     align-items: center; 
+    justify-content: space-between; 
 }
 
 .header-title {
@@ -89,38 +140,22 @@
     font-weight: bold;
     display: flex;
     align-items: center;
-    /* Adicione espaçamento para afastar os botões do título */
-    flex-grow: 1; 
+    margin-right: auto;
 }
 
-.btn-create, .btn-attach, .btn-atualizar-header {
-    background-color: #8B1C28; /* Cor Principal */
+.btn-create, .btn-atualizar-header {
+    background-color: #8B1C28; 
     color: white;
     border: none;
     padding: 8px 15px;
-    margin-left: 10px; /* Espaço entre os botões */
+    margin-left: 10px; 
     cursor: pointer;
 }
 
-.btn-attach {
-    background-color: transparent;
-    color: #8B1C28;
-    border: 1px solid #8B1C28;
+.btn-create {
+    margin-right: 10px; 
 }
 
-/* NOVO ESTILO: Botão Atualizar no Cabeçalho */
-.btn-atualizar-header {
-    background-color: #8B1C28;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-/* O estilo do botão antigo (.btn-atualizar-list) foi removido. */
-
-
-/* Estilo da Tabela */
 .ticket-list-container {
     background: white;
     padding: 20px;
@@ -144,7 +179,6 @@ thead th {
     font-weight: bold;
 }
 
-/* Indicadores de Status (Bolas coloridas) */
 .status-indicator {
     display: inline-block;
     width: 15px;
@@ -152,17 +186,9 @@ thead th {
     border-radius: 50%;
 }
 
-.status-green {
-    background-color: green;
-}
-
-.status-yellow {
-    background-color: orange;
-}
-
-.status-red {
-    background-color: red;
-}
+.status-green { background-color: green; }
+.status-yellow { background-color: orange; }
+.status-red { background-color: red; }
 
 .edit-btn {
     background: none;
@@ -171,11 +197,9 @@ thead th {
     cursor: pointer;
 }
 
-/* Estilo do Pop-up de Status (Simulação) */
 .status-popup-simulacao {
     border: 1px solid #ccc;
     padding: 20px;
     margin-top: 20px;
     background: white;
-    /* Estilos simples de pop-up [cite: 24] */
 }

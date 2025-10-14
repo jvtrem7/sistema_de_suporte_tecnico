@@ -1,5 +1,5 @@
 .content-area-novo-ticket {
-    background-color: #EFEFEF; /* Cor de Fundo Claro */
+    background-color: #EFEFEF; 
     padding: 20px;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .btn-create.active {
-    background-color: #8B1C28; /* Cor Principal para o botão ativo */
+    background-color: #8B1C28; 
     color: white;
     border: none;
     padding: 8px 15px;
@@ -77,7 +77,6 @@
     padding: 10px;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    /* Ajuste de largura para os campos específicos da esquerda */
     max-width: 250px; 
 }
 
@@ -91,7 +90,7 @@
 
 .form-actions {
     display: flex;
-    justify-content: flex-end; /* Alinha os botões à direita */
+    justify-content: flex-end; 
     gap: 15px;
     margin-top: 30px;
 }
@@ -104,11 +103,11 @@
 }
 
 .btn-fechar {
-    background-color: #D32F2F; /* Cor vermelha para fechar */
+    background-color: #D32F2F; 
     color: white;
 }
 
 .btn-adicionar {
-    background-color: #8B1C28; /* Cor principal para adicionar */
+    background-color: #8B1C28; 
     color: white;
 }

@@ -1,28 +1,40 @@
-<div class="main-layout">
+<div class="main-layout" [class.sidebar-fechada]="!sidebarAberta">
 
   <aside class="sidebar">
+    
+    <div class="menu-icon-toggle" (click)="toggleSidebar()">☰</div>
+    
     <div class="sidebar-header">
-      <img src="assets/logo-vassouras-small.png" alt="Logo">
-    </div>
+      </div>
     
     <nav class="sidebar-nav">
-      <div class="menu-icon-toggle">☰</div>
-
-      <a class="nav-item" [routerLink]="['/dashboard']">
+      
+      <a class="nav-item" 
+         [routerLink]="['/dashboard']"
+         (click)="toggleSidebar()">
         Dashboard
       </a>
       
-      <a class="nav-item active" [routerLink]="['/tickets']">
+      <a class="nav-item active">
         Tickets
       </a>
     </nav>
     
-    <button class="btn-sair">sair</button>
+    <button class="btn-sair" (click)="fazerLogout()">sair</button>
   </aside>
 
   <main class="content-area-tickets">
     <header class="tickets-header">
-      <div class="search-bar">Q Pesquisar</div>
+      
+      <form class="search-form" (ngSubmit)="realizarPesquisa()">
+          <input 
+              type="text" 
+              placeholder="Pesquisar..." 
+              [(ngModel)]="termoDePesquisa" 
+              name="search_term">
+          
+          <button type="submit" class="btn-search">Pesquisar</button>
+      </form>
 
       <div class="actions">
         <div class="header-title">
@@ -32,11 +44,13 @@
         
         <button class="btn-create" [routerLink]="['/tickets/novo']">Criar uma tarefa</button>
         
-        <button class="btn-attach">+ Anexar arquivos</button>
-        
-        <button class="btn-atualizar-header">Atualizar</button> 
+        <button class="btn-atualizar-header" (click)="atualizarLista()">Atualizar</button> 
       </div>
     </header>
+
+    <div *ngIf="ultimaAtualizacao" style="text-align: right; font-size: 0.8em; color: #555; padding-bottom: 10px;">
+        Última Atualização: {{ ultimaAtualizacao | date:'shortTime' }}
+    </div>
 
     <div class="ticket-list-container">
       <table>
@@ -110,12 +124,13 @@
       </table>
     </div>
     
-    <div class="status-popup-simulacao">
+    <div class="status-popup-simulacao" *ngIf="statusPopUpVisivel">
         <p>Status da Tarefa</p>
         <p>O botão verde significa que a tarefa está concluída.</p>
         <p>O botão amarelo significa que a tarefa ainda está em andamento.</p>
         <p>Se o problema não for resolvido por algum motivo, ou se o campo de dias restantes for maior que o campo de Data de Termino da Tarefa, o status muda automaticamente para vermelho.</p>
-        <button>Fechar</button>
+        
+        <button (click)="fecharStatusPopUp()">Fechar</button>
     </div>
   </main>
 </div>

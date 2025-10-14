@@ -1,31 +1,41 @@
+/* src/app/components/dashboard/dashboard.css */
+
+/* ESTRUTURA DE LAYOUT PRINCIPAL */
 .main-layout {
     display: flex;
     min-height: 100vh;
 }
 
+/* SIDEBAR (Menu Lateral) */
 .sidebar {
     width: 250px;
-    background-color: #8B1C28; /* Cor Principal */
+    background-color: #8B1C28; /* Cor Principal (Vinho) */
     color: white;
     padding: 10px 0;
+    /* Garante que o menu esteja no topo e o botão 'sair' no rodapé */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; 
+    transition: width 0.3s ease-in-out;
 }
 
 .sidebar-header {
     padding: 10px 20px;
+    text-align: center;
 }
 
 .sidebar-nav {
-    flex-grow: 1;
-    padding-top: 20px;
+    /* CORREÇÃO CRÍTICA AQUI: Alinha a navegação ao topo */
+    flex-grow: 1; 
+    padding-top: 0; /* Remove padding extra do topo */
 }
 
 .menu-icon-toggle {
     font-size: 1.5em;
     padding: 10px 20px;
     cursor: pointer;
+    /* CORREÇÃO: Remove margem inferior para alinhar com o primeiro link */
+    margin-bottom: 0; 
 }
 
 .nav-item {
@@ -39,12 +49,12 @@
 }
 
 .nav-item.active {
-    background-color: #A92636; /* Cor ligeiramente mais clara que #8B1C28 */
-    border-left: 5px solid yellow; /* Linha amarela de destaque */
+    background-color: #A92636; 
+    border-left: 5px solid yellow; 
 }
 
 .btn-sair {
-    background: #555; 
+    background: #555;
     color: white;
     border: none;
     padding: 10px;
@@ -52,10 +62,41 @@
     cursor: pointer;
 }
 
+/* REGRAS DE COLAPSO DA SIDEBAR */
+.sidebar-fechada .sidebar {
+    width: 60px; 
+}
+
+.sidebar-fechada .content-area {
+    margin-left: 60px; 
+    width: calc(100% - 60px); 
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.sidebar-fechada .sidebar-nav a,
+.sidebar-fechada .btn-sair,
+.sidebar-fechada .sidebar-header {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    padding: 0;
+    transition: opacity 0.2s, height 0.2s;
+}
+
+.sidebar-fechada .menu-icon-toggle {
+    opacity: 1;
+    visibility: visible;
+    width: 100%; 
+    text-align: center;
+    padding: 10px 0; 
+    height: auto;
+}
+
 .content-area {
     flex: 1;
-    background-color: #EFEFEF; /* Cor de Fundo Claro */
+    background-color: #EFEFEF; 
     padding: 20px;
+    transition: margin-left 0.3s ease-in-out;
 }
 
 .top-header {
@@ -73,11 +114,12 @@
 }
 
 .user-avatar {
-    width: 40px;
-    height: 40px;
+    width: 40px !important;
+    height: 40px !important;
     border-radius: 50%;
     background: #ccc; 
     margin-right: 10px;
+    object-fit: cover; 
 }
 
 .dashboard-grid {
@@ -114,4 +156,52 @@
     align-items: center;
     justify-content: center;
     margin-top: 15px;
+}
+
+.list-container {
+    padding-top: 10px;
+}
+
+.ticket-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.ticket-link:last-child {
+    border-bottom: none;
+}
+
+.status-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.status-dot.status-green { background-color: green; }
+.status-dot.status-yellow { background-color: orange; }
+.status-dot.status-red { background-color: red; }
+
+.client-list {
+    padding-top: 10px;
+}
+
+.client-item-visual {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    font-weight: bold;
+}
+
+.small-avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover; 
 }
