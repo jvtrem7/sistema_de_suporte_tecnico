@@ -1,0 +1,36 @@
+<div class="recovery-container">
+    
+    <div class="recovery-content">
+        
+        <header class="recovery-header">
+            <h2>RECUPERAÇÃO DE SENHA</h2>
+        </header>
+
+        <div class="recovery-box">
+            <h1>Esqueceu a Senha?</h1>
+            
+            <p class="instruction">
+                Por favor, digite o seu e-mail cadastrado. Enviaremos um link para redefinir sua senha.
+            </p>
+            
+            <form (ngSubmit)="enviarLink()">
+                
+                <label for="email-recovery">E-mail</label>
+                <input 
+                    type="email" 
+                    id="email-recovery" 
+                    [(ngModel)]="email" 
+                    name="email" 
+                    placeholder="Seu e-mail cadastrado" 
+                    required>
+                
+                <button type="submit" class="btn-reset">ENVIAR LINK</button>
+            </form>
+            
+            <button [routerLink]="['/login']" class="btn-back">
+                Voltar para o Login
+            </button>
+        </div>
+        
+    </div>
+</div>

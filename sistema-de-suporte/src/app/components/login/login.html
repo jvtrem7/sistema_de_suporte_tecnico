@@ -2,6 +2,8 @@
 
   <div class="login-left-panel">
     <img src="assets/logo-vassouras.png" alt="Universidade de Vassouras Logo">
+    <div class="universidade-text">UNIVERSIDADE DE</div>
+    <div class="vassouras-text">Vassouras</div>
   </div>
 
   <div class="login-right-panel">
@@ -16,6 +18,7 @@
         <div *ngIf="loginInvalido" style="color: red; font-weight: bold; margin-bottom: 10px; text-align: center;">
             Email ou senha incorretos.
         </div>
+
         <label for="email">Email</label>
         <input type="email" id="email" [(ngModel)]="email" name="email" placeholder="teste@vassouras.com">
 
@@ -23,7 +26,8 @@
         <input type="password" id="senha" [(ngModel)]="senha" name="senha" placeholder="123456">
 
         <button type="submit" class="btn-entrar">Entrar</button>
-        <a href="#" class="forgot-password">Esqueceu a senha?</a>
+        
+        <a [routerLink]="['/recuperar-senha']" class="forgot-password">Esqueceu a senha?</a>
       </form>
     </div>
 
