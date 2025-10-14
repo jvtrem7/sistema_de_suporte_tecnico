@@ -8,9 +8,10 @@
     <nav class="sidebar-nav">
       <div class="menu-icon-toggle">☰</div>
 
-      <a class="nav-item active">
+      <a class="nav-item active" [routerLink]="['/dashboard']">
         Dashboard
       </a>
+      
       <a class="nav-item" [routerLink]="['/tickets']">
         Tickets
       </a>
@@ -30,21 +31,21 @@
     <div class="dashboard-grid">
       <div class="card card-tickets">
         <h3>Últimos Tickets</h3>
-        [cite_start]<div class="ticket-item">Coordenação Vassouras [cite: 19]</div>
-        [cite_start]<div class="ticket-item">Secretaria Vassouras [cite: 19]</div>
+        <div class="ticket-item">Coordenação Vassouras</div>
+        <div class="ticket-item">Secretaria Vassouras</div>
         <button class="mostrar-todos">Mostrar todos</button>
       </div>
 
       <div class="card card-clientes">
         <h3>Últimos clientes ativos</h3>
-        [cite_start]<div class="client-item">Coordenador [cite: 19]</div>
-        [cite_start]<div class="client-item">Secretaria [cite: 19]</div>
-        [cite_start]<div class="client-item">Direção [cite: 19]</div>
+        <div class="client-item">Coordenador</div>
+        <div class="client-item">Secretaria</div>
+        <div class="client-item">Direção</div>
         <button class="mostrar-todos">Mostrar todos</button>
       </div>
 
       <div class="card card-performance full-width">
-        [cite_start]<h3>Performance do Suporte Técnico [cite: 19]</h3>
+        <h3>Performance do Suporte Técnico</h3>
         <div class="chart-placeholder">
           Gráfico de Barras Simulado Aqui
         </div>

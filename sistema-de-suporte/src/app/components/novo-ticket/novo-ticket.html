@@ -5,12 +5,19 @@
             <i class="icon-tickets"></i> 
             Tickets
         </div>
-        <button class="btn-create active">Criar uma tarefa</button>
+        
+        <button class="btn-create active" *ngIf="!modoEdicao">Criar uma tarefa</button>
+        
+        <button class="btn-create active" *ngIf="modoEdicao">
+            Editando Ticket ID: {{ ticketId }}
+        </button>
+        
         <button class="btn-attach">+ Anexar arquivos</button>
     </header>
 
     <div class="card-creation">
-        <h2>Componentes da Criação do Ticket</h2>
+        <h2 *ngIf="!modoEdicao">Componentes da Criação do Ticket</h2>
+        <h2 *ngIf="modoEdicao">Componentes da Edição do Ticket (ID: {{ ticketId }})</h2>
 
         <div class="form-grid">
             
@@ -57,7 +64,10 @@
 
         <div class="form-actions">
             <button class="btn-action btn-fechar" [routerLink]="['/tickets']">Fechar</button>
-            <button class="btn-action btn-adicionar">Adicionar</button>
+            
+            <button class="btn-action btn-adicionar" *ngIf="!modoEdicao">Adicionar</button>
+            
+            <button class="btn-action btn-adicionar" *ngIf="modoEdicao">Salvar Alterações</button>
         </div>
     </div>
   </main>
