@@ -1,0 +1,120 @@
+/* src/app/components/tickets/tickets.css */
+
+/* Replicar o fundo do Dashboard para consistência */
+.content-area-tickets {
+    background-color: #EFEFEF; /* Cor de Fundo Claro */
+    padding: 20px;
+}
+
+.tickets-header {
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.search-bar {
+    font-size: 1.2em;
+    padding: 10px 0;
+    color: #555;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.btn-create, .btn-attach {
+    background-color: #8B1C28; /* Cor Principal */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn-attach {
+    background-color: transparent;
+    color: #8B1C28;
+    border: 1px solid #8B1C28;
+}
+
+/* Estilo da Tabela */
+.ticket-list-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+thead th {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+/* Indicadores de Status (Bolas coloridas) [cite: 24] */
+.status-indicator {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.status-green {
+    background-color: green; /* Concluído [cite: 24] */
+}
+
+.status-yellow {
+    background-color: orange; /* Em andamento [cite: 24] */
+}
+
+.status-red {
+    background-color: red; /* Não resolvido ou prazo excedido [cite: 24] */
+}
+
+.edit-btn {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.btn-atualizar-list {
+    float: right;
+    background-color: #8B1C28;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/* Estilo do Pop-up de Status (Simulação) [cite: 24] */
+.status-popup-simulacao {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    background: white;
+    /* Você pode adicionar estilos para posicionar como um pop-up se quiser */
+}

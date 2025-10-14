@@ -1,0 +1,64 @@
+<div class="main-layout">
+  <main class="content-area-novo-ticket">
+    <header class="novo-ticket-header">
+        <div class="header-title">
+            <i class="icon-tickets"></i> 
+            Tickets
+        </div>
+        <button class="btn-create active">Criar uma tarefa</button>
+        <button class="btn-attach">+ Anexar arquivos</button>
+    </header>
+
+    <div class="card-creation">
+        <h2>Componentes da Criação do Ticket</h2>
+
+        <div class="form-grid">
+            
+            <div class="form-column left-column">
+                <div class="form-group">
+                    <label for="problema">Problema*</label>
+                    <select id="problema">
+                        <option>Tonner Impressora</option>
+                        </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="area">Área*</label>
+                    <select id="area">
+                        <option>Secretaria</option>
+                        </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="companhia">Companhia*</label>
+                    <select id="companhia">
+                        <option>Vassouras</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="data-inicial">Data Inicial*</label>
+                    <input type="date" id="data-inicial">
+                </div>
+
+                <div class="form-group">
+                    <label for="data-final">Data Final*</label>
+                    <input type="date" id="data-final">
+                </div>
+            </div>
+
+            <div class="form-column right-column">
+                <div class="form-group description-group">
+                    <label for="descricao">Descrição*</label>
+                    <textarea id="descricao" rows="6">O tonner da impressora EPSON não está efetuando impressões coloridas.</textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button class="btn-action btn-fechar" [routerLink]="['/tickets']">Fechar</button>
+            <button class="btn-action btn-adicionar">Adicionar</button>
+        </div>
+    </div>
+  </main>
+</div>

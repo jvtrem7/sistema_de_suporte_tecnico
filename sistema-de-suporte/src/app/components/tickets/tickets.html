@@ -1,0 +1,99 @@
+<div class="main-layout">
+  <main class="content-area-tickets">
+    <header class="tickets-header">
+      <div class="search-bar">Q Pesquisar</div>
+
+      <div class="actions">
+        <div class="header-title">
+            <i class="icon-tickets"></i> 
+            Tickets
+        </div>
+        
+        <button class="btn-create" [routerLink]="['/tickets/novo']">Criar uma tarefa</button>
+        
+        <button class="btn-attach">+ Anexar arquivos</button>
+      </div>
+    </header>
+
+    <div class="ticket-list-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Código</th>
+            <th>Área</th>
+            <th>Data Início</th>
+            <th>Status</th>
+            <th>Dias Restantes</th>
+            <th>Problemas</th>
+            <th>Atualizar</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>6</td>
+            <td>Coordenação</td>
+            <td>25/02/25</td>
+            <td><span class="status-indicator status-green"></span></td> 
+            <td>0</td>
+            <td>Falha Portal do Professor</td>
+            <td><button class="edit-btn">✏️</button></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Coordenação</td>
+            <td>20/02/25</td>
+            <td><span class="status-indicator status-yellow"></span></td> 
+            <td>0</td>
+            <td>Falha Sistema Acadêmico</td>
+            <td><button class="edit-btn">✏️</button></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Secretaria</td>
+            <td>18/02/25</td>
+            <td><span class="status-indicator status-red"></span></td> 
+            <td>7</td>
+            <td>Sistema de Matricula</td>
+            <td><button class="edit-btn">✏️</button></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Direção</td>
+            <td>02/01/25</td>
+            <td><span class="status-indicator status-green"></span></td> 
+            <td>0</td>
+            <td>Sistema de RH</td>
+            <td><button class="edit-btn">✏️</button></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Secretaria</td>
+            <td>10/01/25</td>
+            <td><span class="status-indicator status-green"></span></td> 
+            <td>0</td>
+            <td>Boletos de Mensalidade</td>
+            <td><button class="edit-btn">✏️</button></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Secretaria</td>
+            <td>10/01/25</td>
+            <td><span class="status-indicator status-yellow"></span></td> 
+            <td>2</td>
+            <td>Tonner Impressora</td>
+            <td><button class="edit-btn">✏️</button></td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="btn-atualizar-list">Atualizar</button>
+    </div>
+    
+    <div class="status-popup-simulacao">
+        <p>Status dos tickets abertos</p>
+        [cite_start]<p>O botão verde significa que a tarefa está concluída[cite: 24].</p>
+        [cite_start]<p>O botão amarelo significa que a tarefa ainda está em andamento[cite: 24].</p>
+        [cite_start]<p>Se o problema não for resolvido por algum motivo, ou se o campo de dias restantes for maior que o campo de Data de Termino da Tarefa, o status muda automaticamente para vermelho[cite: 24].</p>
+        <button>Fechar</button>
+    </div>
+  </main>
+</div>

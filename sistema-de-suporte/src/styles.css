@@ -1,0 +1,9 @@
+/* Definições de Cores (Valores fixos substituindo as variáveis SCSS) */
+/* Cor Principal (Vinho da Universidade de Vassouras): #8B1C28 */
+/* Cor de Fundo Claro: #EFEFEF */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    background-color: #EFEFEF; /* Cor de Fundo Claro */
+}

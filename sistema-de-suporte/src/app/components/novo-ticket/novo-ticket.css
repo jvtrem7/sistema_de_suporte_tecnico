@@ -1,0 +1,114 @@
+.content-area-novo-ticket {
+    background-color: #EFEFEF; /* Cor de Fundo Claro */
+    padding: 20px;
+}
+
+.novo-ticket-header {
+    background: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.novo-ticket-header .header-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.btn-create.active {
+    background-color: #8B1C28; /* Cor Principal para o botão ativo */
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-right: 10px;
+}
+
+.btn-attach {
+    background-color: transparent;
+    color: #8B1C28;
+    border: 1px solid #8B1C28;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.card-creation {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-creation h2 {
+    font-size: 1.4em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.form-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.left-column {
+    flex: 1;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group select, .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    /* Ajuste de largura para os campos específicos da esquerda */
+    max-width: 250px; 
+}
+
+.description-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end; /* Alinha os botões à direita */
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.btn-action {
+    padding: 10px 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-fechar {
+    background-color: #D32F2F; /* Cor vermelha para fechar */
+    color: white;
+}
+
+.btn-adicionar {
+    background-color: #8B1C28; /* Cor principal para adicionar */
+    color: white;
+}

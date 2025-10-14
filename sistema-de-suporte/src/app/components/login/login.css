@@ -1,0 +1,101 @@
+.login-container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.login-left-panel {
+    flex: 0 0 45%; 
+    background-color: #8B1C28; /* Cor Principal */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-left-panel img {
+    width: 60%; 
+    max-width: 400px;
+    filter: brightness(0) invert(1);
+}
+
+.login-left-panel .universidade-text {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.login-left-panel .vassouras-text {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.login-right-panel {
+    flex: 1; 
+    background-color: #EFEFEF; /* Cor de Fundo Claro */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.header-suporte {
+    background-color: #333;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-suporte h2 { font-size: 1.8em; margin: 0; }
+.header-suporte h3 { font-size: 1.2em; margin: 0; }
+
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    max-width: 90%;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.btn-entrar {
+    background-color: #8B1C28; /* Cor Principal */
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 25px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #333;
+    text-decoration: none;
+}
+
+.welcome-message {
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
