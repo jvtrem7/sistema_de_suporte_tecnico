@@ -1,22 +1,19 @@
-/* src/app/components/dashboard/dashboard.css */
 
-/* ESTRUTURA DE LAYOUT PRINCIPAL */
 .main-layout {
     display: flex;
     min-height: 100vh;
 }
 
-/* SIDEBAR (Menu Lateral) */
 .sidebar {
     width: 250px;
-    background-color: #8B1C28; /* Cor Principal (Vinho) */
+    background-color: #8B1C28; 
     color: white;
     padding: 10px 0;
-    /* Garante que o menu esteja no topo e o botão 'sair' no rodapé */
     display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    justify-content: space-between;
     transition: width 0.3s ease-in-out;
+    flex-shrink: 0;
 }
 
 .sidebar-header {
@@ -25,16 +22,14 @@
 }
 
 .sidebar-nav {
-    /* CORREÇÃO CRÍTICA AQUI: Alinha a navegação ao topo */
-    flex-grow: 1; 
-    padding-top: 0; /* Remove padding extra do topo */
+    flex-grow: 1;
+    padding-top: 5px; 
 }
 
 .menu-icon-toggle {
     font-size: 1.5em;
     padding: 10px 20px;
     cursor: pointer;
-    /* CORREÇÃO: Remove margem inferior para alinhar com o primeiro link */
     margin-bottom: 0; 
 }
 
@@ -62,7 +57,6 @@
     cursor: pointer;
 }
 
-/* REGRAS DE COLAPSO DA SIDEBAR */
 .sidebar-fechada .sidebar {
     width: 60px; 
 }
@@ -80,7 +74,8 @@
     visibility: hidden;
     height: 0;
     padding: 0;
-    transition: opacity 0.2s, height 0.2s;
+    width: 0;
+    transition: opacity 0.2s, height 0.2s, width 0.2s, padding 0.2s; 
 }
 
 .sidebar-fechada .menu-icon-toggle {
@@ -133,19 +128,41 @@
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
 }
 
-.full-width {
-    grid-column: 1 / -1; 
+.card-footer-actions {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 15px; 
+    padding-top: 10px;
+    border-top: 1px solid #eee; 
 }
+
+.btn-admin-access {
+    background-color: #8B1C28; 
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 4px;
+}
+
 
 .mostrar-todos {
     background: none;
     border: 1px solid #ccc;
     padding: 5px 10px;
-    margin-top: 15px;
     cursor: pointer;
-    display: block;
+    margin-right: auto; 
+    display: inline-block;
+}
+
+.full-width {
+    grid-column: 1 / -1; 
 }
 
 .chart-placeholder {
@@ -189,6 +206,7 @@
 
 .client-list {
     padding-top: 10px;
+    flex-grow: 1; 
 }
 
 .client-item-visual {

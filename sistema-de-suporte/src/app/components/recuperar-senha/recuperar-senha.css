@@ -1,12 +1,10 @@
-/* src/app/components/recuperar-senha/recuperar-senha.css */
 
-/* Importa as cores globais, se o seu projeto suportasse SCSS, mas usamos os valores */
 .recovery-container {
-    background-color: #EFEFEF; /* Cor de Fundo Claro */
+    background-color: #EFEFEF; 
     min-height: 100vh;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; 
+    align-items: center; 
     padding: 20px;
 }
 
@@ -14,16 +12,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 450px; /* Largura máxima para o formulário */
+    max-width: 450px;
     width: 100%;
 }
 
-/* Estilo do cabeçalho similar ao do Login, mas sem fundo preto */
+
 .recovery-header h2 {
     font-size: 1.8em;
     font-weight: 900;
     margin-bottom: 20px;
-    color: #333; /* Cor escura para o título */
+    color: #333; 
 }
 
 .recovery-box {
@@ -37,7 +35,7 @@
 
 .recovery-box h1 {
     font-size: 1.5em;
-    color: #8B1C28; /* Cor principal (Vinho) */
+    color: #8B1C28; 
     margin-top: 0;
     margin-bottom: 20px;
 }
@@ -47,7 +45,7 @@
     color: #555;
 }
 
-/* Estilos do formulário */
+
 form {
     width: 100%;
     display: block;
@@ -69,7 +67,7 @@ input {
 }
 
 .btn-reset {
-    background-color: #8B1C28; /* Cor principal (Vinho) */
+    background-color: #8B1C28; 
     color: white;
     border: none;
     padding: 12px;

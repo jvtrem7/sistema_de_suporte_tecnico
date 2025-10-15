@@ -11,13 +11,13 @@ import { RouterLink, Router } from '@angular/router';
 })
 export class DashboardComponent {
   
-  sidebarAberta: boolean = true; 
-  
+  sidebarAberta: boolean = false; 
+
   ticketsExpandidos: boolean = false;
   clientesExpandidos: boolean = false;
 
   constructor(private router: Router) {} 
-  
+
   toggleSidebar() {
     this.sidebarAberta = !this.sidebarAberta;
   }

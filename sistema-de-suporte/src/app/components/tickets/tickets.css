@@ -75,7 +75,6 @@
     width: calc(100% - 60px);
 }
 
-
 .sidebar-fechada .sidebar-nav a,
 .sidebar-fechada .btn-sair,
 .sidebar-fechada .sidebar-header {
@@ -84,7 +83,7 @@
     height: 0; 
     padding: 0;
     width: 0; 
-    transition: opacity 0.2s, height 0.2s, width 0.2s; 
+    transition: opacity 0.2s, height 0.2s, width 0.2s, padding 0.2s; 
 }
 
 .sidebar-fechada .menu-icon-toggle {

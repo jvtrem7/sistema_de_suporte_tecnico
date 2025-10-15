@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common'; 
 import { FormsModule } from '@angular/forms'; 
-import { Router, RouterLink } from '@angular/router'; // RouterLink adicionado para o link "Esqueceu a senha?"
+import { Router, RouterLink } from '@angular/router'; 
 
 @Component({
   selector: 'app-login',
@@ -19,7 +19,6 @@ export class LoginComponent {
   constructor(private router: Router) {} 
 
   fazerLogin() {
-    // Credenciais Simplesmente Fixas
     const EMAIL_CORRETO = 'teste@vassouras.com';
     const SENHA_CORRETA = '123456';
 

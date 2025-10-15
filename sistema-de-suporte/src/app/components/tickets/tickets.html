@@ -1,7 +1,6 @@
 <div class="main-layout" [class.sidebar-fechada]="!sidebarAberta">
 
   <aside class="sidebar">
-    
     <div class="menu-icon-toggle" (click)="toggleSidebar()">☰</div>
     
     <div class="sidebar-header">
@@ -11,11 +10,11 @@
       
       <a class="nav-item" 
          [routerLink]="['/dashboard']"
-         (click)="toggleSidebar()">
+         (click)="navegarEFechar()">
         Dashboard
       </a>
       
-      <a class="nav-item active">
+      <a class="nav-item active" [routerLink]="['/tickets']" (click)="navegarEFechar()">
         Tickets
       </a>
     </nav>
@@ -66,59 +65,14 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>6</td>
-            <td>Coordenação</td>
-            <td>25/02/25</td>
-            <td><span class="status-indicator status-green"></span></td> 
-            <td>0</td>
-            <td>Falha Portal do Professor</td>
-            <td><button class="edit-btn" (click)="editarTicket(6)">✏️</button></td> 
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>Coordenação</td>
-            <td>20/02/25</td>
-            <td><span class="status-indicator status-yellow"></span></td> 
-            <td>0</td>
-            <td>Falha Sistema Acadêmico</td>
-            <td><button class="edit-btn" (click)="editarTicket(5)">✏️</button></td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>Secretaria</td>
-            <td>18/02/25</td>
-            <td><span class="status-indicator status-red"></span></td> 
-            <td>7</td>
-            <td>Sistema de Matricula</td>
-            <td><button class="edit-btn" (click)="editarTicket(4)">✏️</button></td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>Direção</td>
-            <td>02/01/25</td>
-            <td><span class="status-indicator status-green"></span></td> 
-            <td>0</td>
-            <td>Sistema de RH</td>
-            <td><button class="edit-btn" (click)="editarTicket(3)">✏️</button></td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Secretaria</td>
-            <td>10/01/25</td>
-            <td><span class="status-indicator status-green"></span></td> 
-            <td>0</td>
-            <td>Boletos de Mensalidade</td>
-            <td><button class="edit-btn" (click)="editarTicket(2)">✏️</button></td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>Secretaria</td>
-            <td>10/01/25</td>
-            <td><span class="status-indicator status-yellow"></span></td> 
-            <td>2</td>
-            <td>Tonner Impressora</td>
-            <td><button class="edit-btn" (click)="editarTicket(1)">✏️</button></td>
+          <tr *ngFor="let ticket of ticketsExibidos">
+            <td>{{ ticket.codigo }}</td>
+            <td>{{ ticket.area }}</td>
+            <td>{{ ticket.dataInicio }}</td>
+            <td><span class="status-indicator" [class]="'status-' + ticket.status"></span></td> 
+            <td>{{ ticket.diasRestantes }}</td>
+            <td>{{ ticket.problemas }}</td>
+            <td><button class="edit-btn" (click)="editarTicket(ticket.codigo)">✏️</button></td> 
           </tr>
         </tbody>
       </table>
