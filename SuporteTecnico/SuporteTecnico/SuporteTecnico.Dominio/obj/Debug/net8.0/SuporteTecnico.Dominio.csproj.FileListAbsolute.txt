@@ -1,0 +1,22 @@
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\bin\Debug\net8.0\SuporteTecnico.Dominio.deps.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\bin\Debug\net8.0\SuporteTecnico.Dominio.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\bin\Debug\net8.0\SuporteTecnico.Dominio.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\SuporteTecnico.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\SuporteTecnico.Dominio.AssemblyInfoInputs.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\SuporteTecnico.Dominio.AssemblyInfo.cs
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\SuporteTecnico.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\SuporteTecnico.Dominio.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\refint\SuporteTecnico.Dominio.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\SuporteTecnico.Dominio.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\ref\SuporteTecnico.Dominio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\bin\Debug\net8.0\SuporteTecnico.Dominio.deps.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\bin\Debug\net8.0\SuporteTecnico.Dominio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\bin\Debug\net8.0\SuporteTecnico.Dominio.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\SuporteTecnico.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\SuporteTecnico.Dominio.AssemblyInfoInputs.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\SuporteTecnico.Dominio.AssemblyInfo.cs
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\SuporteTecnico.Dominio.csproj.CoreCompileInputs.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\SuporteTecnico.Dominio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\refint\SuporteTecnico.Dominio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\SuporteTecnico.Dominio.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Dominio\obj\Debug\net8.0\ref\SuporteTecnico.Dominio.dll

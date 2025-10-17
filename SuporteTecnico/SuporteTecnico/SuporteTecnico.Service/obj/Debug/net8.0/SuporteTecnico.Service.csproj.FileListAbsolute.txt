@@ -1,0 +1,34 @@
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Service.deps.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Service.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Service.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Dominio.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Repositorio.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Dominio.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Repositorio.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.csproj.AssemblyReference.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.AssemblyInfoInputs.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.AssemblyInfo.cs
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.csproj.CoreCompileInputs.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteT.C5BFDF92.Up2Date
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\refint\SuporteTecnico.Service.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\ref\SuporteTecnico.Service.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Service.deps.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Service.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Service.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Dominio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Repositorio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Dominio.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\bin\Debug\net8.0\SuporteTecnico.Repositorio.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.csproj.AssemblyReference.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.AssemblyInfoInputs.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.AssemblyInfo.cs
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.csproj.CoreCompileInputs.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteT.C5BFDF92.Up2Date
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\refint\SuporteTecnico.Service.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\SuporteTecnico.Service.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Service\obj\Debug\net8.0\ref\SuporteTecnico.Service.dll

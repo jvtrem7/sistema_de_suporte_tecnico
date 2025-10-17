@@ -1,0 +1,192 @@
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\appsettings.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.WebApi.staticwebassets.endpoints.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.WebApi.exe
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.WebApi.deps.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.WebApi.runtimeconfig.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.WebApi.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.WebApi.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.Dominio.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.Repositorio.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.Service.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.Dominio.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.Service.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.Repositorio.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.csproj.AssemblyReference.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.AssemblyInfoInputs.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.AssemblyInfo.cs
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\scopedcss\bundle\SuporteTecnico.WebApi.styles.css
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteT.F95CFF58.Up2Date
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\refint\SuporteTecnico.WebApi.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.genruntimeconfig.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\ref\SuporteTecnico.WebApi.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\appsettings.Development.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\appsettings.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.WebApi.staticwebassets.endpoints.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.WebApi.exe
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.WebApi.deps.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.WebApi.runtimeconfig.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.WebApi.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.WebApi.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Azure.Core.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Azure.Identity.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.ClientModel.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Memory.Data.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Text.Json.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.Dominio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.Repositorio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.Service.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.Dominio.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.Service.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\bin\Debug\net8.0\SuporteTecnico.Repositorio.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.csproj.AssemblyReference.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.AssemblyInfoInputs.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.AssemblyInfo.cs
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.csproj.CoreCompileInputs.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\scopedcss\bundle\SuporteTecnico.WebApi.styles.css
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\staticwebassets.build.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\staticwebassets.development.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteT.F95CFF58.Up2Date
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\refint\SuporteTecnico.WebApi.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\SuporteTecnico.WebApi.genruntimeconfig.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.WebApi\obj\Debug\net8.0\ref\SuporteTecnico.WebApi.dll
