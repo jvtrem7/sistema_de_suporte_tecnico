@@ -1,90 +1,98 @@
 <div class="main-layout" [class.sidebar-fechada]="!sidebarAberta">
-
   <aside class="sidebar">
     <div class="menu-icon-toggle" (click)="toggleSidebar()">☰</div>
-    
-    <div class="sidebar-header">
-      </div>
-    
+
     <nav class="sidebar-nav">
-      
-      <a class="nav-item" 
-         [routerLink]="['/dashboard']"
-         (click)="navegarEFechar()">
-        Dashboard
-      </a>
-      
-      <a class="nav-item active" [routerLink]="['/tickets']" (click)="navegarEFechar()">
-        Tickets
-      </a>
+      <a class="nav-item" [routerLink]="['/dashboard']" (click)="navegarEFechar()">Dashboard</a>
+      <a class="nav-item active" [routerLink]="['/tickets']" (click)="navegarEFechar()">Chamados</a>
     </nav>
-    
-    <button class="btn-sair" (click)="fazerLogout()">sair</button>
+
+    <button class="btn-sair" (click)="fazerLogout()">Sair</button>
   </aside>
 
   <main class="content-area-tickets">
     <header class="tickets-header">
-      
       <form class="search-form" (ngSubmit)="realizarPesquisa()">
-          <input 
-              type="text" 
-              placeholder="Pesquisar..." 
-              [(ngModel)]="termoDePesquisa" 
-              name="search_term">
-          
-          <button type="submit" class="btn-search">Pesquisar</button>
+        <input
+          type="text"
+          placeholder="Pesquisar..."
+          [(ngModel)]="termoDePesquisa"
+          name="search_term">
+        <button type="submit" class="btn-search">Pesquisar</button>
       </form>
 
       <div class="actions">
         <div class="header-title">
-            <i class="icon-tickets"></i> 
-            Tickets
+          <i class="icon-tickets"></i>
+          Chamados
         </div>
-        
-        <button class="btn-create" [routerLink]="['/tickets/novo']">Criar uma tarefa</button>
-        
-        <button class="btn-atualizar-header" (click)="atualizarLista()">Atualizar</button> 
+
+        <button class="btn-create" (click)="criarChamado()">Novo Chamado</button>
+        <button class="btn-atualizar-header" (click)="atualizarLista()">Atualizar</button>
       </div>
     </header>
 
     <div *ngIf="ultimaAtualizacao" style="text-align: right; font-size: 0.8em; color: #555; padding-bottom: 10px;">
-        Última Atualização: {{ ultimaAtualizacao | date:'shortTime' }}
+      Última Atualização: {{ ultimaAtualizacao | date:'shortTime' }}
     </div>
 
     <div class="ticket-list-container">
       <table>
         <thead>
           <tr>
-            <th>Código</th>
-            <th>Área</th>
-            <th>Data Início</th>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Descrição</th>
             <th>Status</th>
-            <th>Dias Restantes</th>
-            <th>Problemas</th>
-            <th>Atualizar</th>
+            <th>Setor</th>
+            <th>Data Abertura</th>
+            <th>Data Fechamento</th>
+            <th>Ações</th>
           </tr>
         </thead>
         <tbody>
-          <tr *ngFor="let ticket of ticketsExibidos">
-            <td>{{ ticket.codigo }}</td>
-            <td>{{ ticket.area }}</td>
-            <td>{{ ticket.dataInicio }}</td>
-            <td><span class="status-indicator" [class]="'status-' + ticket.status"></span></td> 
-            <td>{{ ticket.diasRestantes }}</td>
-            <td>{{ ticket.problemas }}</td>
-            <td><button class="edit-btn" (click)="editarTicket(ticket.codigo)">✏️</button></td> 
+          <tr *ngFor="let c of chamados">
+            <td>{{ c.id }}</td>
+            <td>{{ c.titulo }}</td>
+            <td>{{ c.descricao }}</td>
+            
+            <!-- Status com cores -->
+            <td>
+              <span class="status-btn" 
+                    [ngClass]="{
+                      'status-aberto': c.status === 'Aberto',
+                      'status-andamento': c.status === 'Em Andamento',
+                      'status-fechado': c.status === 'Fechado'
+                    }">
+                {{ c.status }}
+              </span>
+            </td>
+
+            <!-- Setor com cores -->
+            <td [ngClass]="{
+                  'setor-coordenacao': c.setor === 'Coordenação',
+                  'setor-direcao': c.setor === 'Direção',
+                  'setor-secretaria': c.setor === 'Secretaria',
+                  'setor-rh': c.setor === 'RH'
+                }">
+              {{ c.setor }}
+            </td>
+
+            <td>{{ c.dataAbertura | date:'short' }}</td>
+            <td>{{ c.dataFechamento ? (c.dataFechamento | date:'short') : '-' }}</td>
+            <td>
+              <button class="edit-btn" (click)="editarChamado(c.id)">✏️</button>
+            </td>
           </tr>
         </tbody>
       </table>
     </div>
-    
+
     <div class="status-popup-simulacao" *ngIf="statusPopUpVisivel">
-        <p>Status da Tarefa</p>
-        <p>O botão verde significa que a tarefa está concluída.</p>
-        <p>O botão amarelo significa que a tarefa ainda está em andamento.</p>
-        <p>Se o problema não for resolvido por algum motivo, ou se o campo de dias restantes for maior que o campo de Data de Termino da Tarefa, o status muda automaticamente para vermelho.</p>
-        
-        <button (click)="fecharStatusPopUp()">Fechar</button>
+      <p>Status da Tarefa</p>
+      <p>Aberto = chamado em andamento.</p>
+      <p>Fechado = chamado resolvido.</p>
+      <button (click)="fecharStatusPopUp()">Fechar</button>
     </div>
   </main>
 </div>

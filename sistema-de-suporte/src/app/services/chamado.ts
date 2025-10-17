@@ -7,8 +7,9 @@ export interface Chamado {
   titulo: string;
   descricao: string;
   status: string;
-  dataAbertura: string;
-  dataFechamento?: string;
+  dataAbertura: string;         // string no formato YYYY-MM-DD
+  dataFechamento?: string;      // opcional, string ou undefined
+  setor?: string;               // opcional
 }
 
 @Injectable({
@@ -16,7 +17,7 @@ export interface Chamado {
 })
 export class ChamadoService {
 
-  private apiUrl = 'https://localhost:7063/api/chamado'; // URL do seu backend .NET
+  private apiUrl = 'https://localhost:7063/api/chamados';
 
   constructor(private http: HttpClient) {}
 
@@ -32,8 +33,8 @@ export class ChamadoService {
     return this.http.post<Chamado>(this.apiUrl, chamado);
   }
 
-  atualizarChamado(id: number, chamado: Chamado): Observable<void> {
-    return this.http.put<void>(`${this.apiUrl}/${id}`, chamado);
+  atualizarChamado(id: number, chamado: Chamado): Observable<Chamado> {
+    return this.http.put<Chamado>(`${this.apiUrl}/${id}`, chamado);
   }
 
   excluirChamado(id: number): Observable<void> {
