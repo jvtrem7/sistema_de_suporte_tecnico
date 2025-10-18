@@ -1,101 +1,89 @@
 <div class="main-layout">
-  
   <main class="content-area-novo-ticket">
     <header class="novo-ticket-header">
-        <div class="header-title">
-            <i class="icon-tickets"></i> 
-            Tickets
-        </div>
-        
-        <button class="btn-create active" *ngIf="!modoEdicao">Criar uma tarefa</button>
-        <button class="btn-create active" *ngIf="modoEdicao">
-            Editando Ticket
-        </button>
-        
-        <input 
-            type="file" 
-            #fileInput 
-            (change)="onFileSelected($event)" 
-            style="display: none;" 
-            multiple> 
+      <div class="header-title">
+        <i class="icon-tickets"></i> 
+        Tickets
+      </div>
 
-        <button class="btn-attach" (click)="fileInput.click()">
-            + Anexar arquivos
-        </button>
-        
-        </header>
+      <button class="btn-create active" *ngIf="!modoEdicao">Criar uma tarefa</button>
+      <button class="btn-create active" *ngIf="modoEdicao">Editando Ticket</button>
+
+      <input 
+        type="file" 
+        #fileInput 
+        (change)="onFileSelected($event)" 
+        style="display: none;" 
+        multiple> 
+
+      <button class="btn-attach" (click)="fileInput.click()">+ Anexar arquivos</button>
+    </header>
 
     <div class="anexos-info" *ngIf="arquivosSelecionados.length > 0">
-        <p>Arquivos prontos para envio:</p>
-        <ul>
-            <li *ngFor="let file of arquivosSelecionados">
-                {{ file.name }} ({{ file.size / 1024 | number: '1.0-1' }} KB)
-            </li>
-        </ul>
+      <p>Arquivos prontos para envio:</p>
+      <ul>
+        <li *ngFor="let file of arquivosSelecionados">
+          {{ file.name }} ({{ file.size / 1024 | number: '1.0-1' }} KB)
+        </li>
+      </ul>
     </div>
 
     <div class="card-creation">
-        <h2 *ngIf="!modoEdicao">Componentes da Criação do Ticket</h2>
-        <h2 *ngIf="modoEdicao">Componentes da Edição do Ticket</h2>
+      <h2 *ngIf="!modoEdicao">Criar Novo Ticket</h2>
+      <h2 *ngIf="modoEdicao">Editar Ticket</h2>
 
-        <div class="form-grid">
-            
-            <div class="form-column left-column">
-                <div class="form-group">
-                    <label for="problema">Problema*</label>
-                    <select id="problema">
-                        <option>Tonner Impressora</option>
-                        <option>Problema de Rede</option>
-                        <option>Ava Instável</option>
-                        </select>
-                </div>
+      <div class="form-grid">
+        <div class="form-column left-column">
+          <div class="form-group">
+            <label for="titulo">Título*</label>
+            <input id="titulo" type="text" [(ngModel)]="chamado.titulo" name="titulo" required>
+          </div>
 
-                <div class="form-group">
-                    <label for="area">Área*</label>
-                    <select id="area">
-                        <option>Secretaria</option>
-                        <option>Coordenação</option>
-                        <option>Direção</option>
-                        </select>
-                </div>
-                
-                <div class="form-group">
-                    <label for="companhia">Companhia*</label>
-                    <select id="companhia">
-                        <option>Vassouras</option>
-                    </select>
-                </div>
+          <div class="form-group">
+            <label for="status">Status*</label>
+            <select id="status" [(ngModel)]="chamado.status" name="status">
+              <option>Aberto</option>
+              <option>Em Andamento</option>
+              <option>Fechado</option>
+            </select>
+          </div>
 
-                <div class="form-group">
-                    <label for="data-inicial">Data Inicial*</label>
-                    <input type="date" id="data-inicial">
-                </div>
+          <div class="form-group">
+            <label for="setor">Setor*</label>
+            <select id="setor" [(ngModel)]="chamado.setor" name="setor" required>
+              <option value="" disabled [selected]="!chamado.setor">Selecione um setor</option>
+              <option *ngFor="let s of setores" [value]="s">{{ s }}</option>
+            </select>
+          </div>
 
-                <div class="form-group">
-                    <label for="data-final">Data Final*</label>
-                    <input type="date" id="data-final">
-                </div>
-            </div>
+          <div class="form-group">
+            <label for="dataAbertura">Data Abertura*</label>
+            <input type="date" id="dataAbertura" [(ngModel)]="chamado.dataAbertura" name="dataAbertura" required>
+          </div>
 
-            <div class="form-column right-column">
-                <div class="form-group description-group">
-                    <label for="descricao">Descrição*</label>
-                    <textarea id="descricao" rows="6">O tonner da impressora EPSON não está efetuando impressões coloridas.</textarea>
-                </div>
-            </div>
+          <div class="form-group">
+            <label for="dataFechamento">Data Fechamento</label>
+            <input type="date" id="dataFechamento" [(ngModel)]="chamado.dataFechamento" name="dataFechamento">
+          </div>
         </div>
 
-        <div class="form-actions">
-            <button class="btn-action btn-fechar" [routerLink]="['/tickets']">Fechar</button>
-            
-            <button class="btn-action btn-delete" *ngIf="modoEdicao" (click)="deletarTicket()">
-                Deletar Tarefa
-            </button>
-
-            <button class="btn-action btn-adicionar" *ngIf="!modoEdicao" (click)="salvarOuAdicionar()">Adicionar</button>
-            
-            <button class="btn-action btn-adicionar" *ngIf="modoEdicao" (click)="salvarOuAdicionar()">Salvar Alterações</button>
+        <div class="form-column right-column">
+          <div class="form-group description-group">
+            <label for="descricao">Descrição*</label>
+            <textarea id="descricao" rows="6" [(ngModel)]="chamado.descricao" name="descricao" required></textarea>
+          </div>
         </div>
+      </div>
+
+      <div class="form-actions">
+        <button class="btn-action btn-fechar" [routerLink]="['/tickets']">Fechar</button>
+
+        <button class="btn-action btn-delete" *ngIf="modoEdicao" (click)="deletarTicket()">Deletar Tarefa</button>
+
+        <button class="btn-action btn-adicionar" (click)="salvarOuAdicionar()">
+          {{ modoEdicao ? 'Salvar Alterações' : 'Adicionar' }}
+        </button>
+      </div>
     </div>
   </main>
 </div>

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SuporteTecnico\\SuporteTecnico\\SuporteTecnico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1C62EAFE-1397-494C-9868-5D536B720C30}|SuporteTecnico.Dominio\\SuporteTecnico.Dominio.csproj|c:\\suportetecnico\\suportetecnico\\suportetecnico\\suportetecnico.dominio\\chamado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C62EAFE-1397-494C-9868-5D536B720C30}|SuporteTecnico.Dominio\\SuporteTecnico.Dominio.csproj|solutionrelative:suportetecnico.dominio\\chamado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66B2DDD2-3B85-4781-A42C-599A2D39CD11}|SuporteTecnico.WebApi\\SuporteTecnico.WebApi.csproj|c:\\suportetecnico\\suportetecnico\\suportetecnico\\suportetecnico.webapi\\controllers\\chamadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66B2DDD2-3B85-4781-A42C-599A2D39CD11}|SuporteTecnico.WebApi\\SuporteTecnico.WebApi.csproj|solutionrelative:suportetecnico.webapi\\controllers\\chamadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chamado.cs",
+              "DocumentMoniker": "C:\\SuporteTecnico\\SuporteTecnico\\SuporteTecnico\\SuporteTecnico.Dominio\\Chamado.cs",
+              "RelativeDocumentMoniker": "SuporteTecnico.Dominio\\Chamado.cs",
+              "ToolTip": "C:\\SuporteTecnico\\SuporteTecnico\\SuporteTecnico\\SuporteTecnico.Dominio\\Chamado.cs",
+              "RelativeToolTip": "SuporteTecnico.Dominio\\Chamado.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T22:05:02.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChamadosController.cs",
+              "DocumentMoniker": "C:\\SuporteTecnico\\SuporteTecnico\\SuporteTecnico\\SuporteTecnico.WebApi\\Controllers\\ChamadosController.cs",
+              "RelativeDocumentMoniker": "SuporteTecnico.WebApi\\Controllers\\ChamadosController.cs",
+              "ToolTip": "C:\\SuporteTecnico\\SuporteTecnico\\SuporteTecnico\\SuporteTecnico.WebApi\\Controllers\\ChamadosController.cs",
+              "RelativeToolTip": "SuporteTecnico.WebApi\\Controllers\\ChamadosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T22:01:31.422Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

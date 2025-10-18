@@ -202,3 +202,60 @@ thead th {
     margin-top: 20px;
     background: white;
 }
+
+/* Setores */
+.setor-coordenacao {
+  background-color: #4caf50; /* verde */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.setor-direcao {
+  background-color: #f44336; /* vermelho */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.setor-secretaria {
+  background-color: #ff9800; /* laranja */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.setor-rh {
+  background-color: #2196f3; /* azul */
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* Status */
+.status-btn {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  text-align: center;
+  min-width: 80px;
+}
+
+.status-aberto {
+  background-color: #ffeb3b;
+  color: #333; /* texto escuro para contraste */
+}
+
+.status-andamento {
+  background-color: #2196f3;
+}
+
+.status-fechado {
+  background-color: #4caf50;
+}

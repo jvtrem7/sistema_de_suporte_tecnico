@@ -1,0 +1,34 @@
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\bin\Debug\net8.0\SuporteTecnico.Repositorio.deps.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\bin\Debug\net8.0\SuporteTecnico.Repositorio.runtimeconfig.json
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\bin\Debug\net8.0\SuporteTecnico.Repositorio.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\bin\Debug\net8.0\SuporteTecnico.Repositorio.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\bin\Debug\net8.0\SuporteTecnico.Dominio.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\bin\Debug\net8.0\SuporteTecnico.Dominio.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.csproj.AssemblyReference.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.AssemblyInfoInputs.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.AssemblyInfo.cs
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.csproj.CoreCompileInputs.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteT.74166713.Up2Date
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\refint\SuporteTecnico.Repositorio.dll
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.pdb
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.genruntimeconfig.cache
+C:\Users\ooooi\OneDrive\Área de Trabalho\Sistema de Suporte\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\ref\SuporteTecnico.Repositorio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\bin\Debug\net8.0\SuporteTecnico.Repositorio.deps.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\bin\Debug\net8.0\SuporteTecnico.Repositorio.runtimeconfig.json
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\bin\Debug\net8.0\SuporteTecnico.Repositorio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\bin\Debug\net8.0\SuporteTecnico.Repositorio.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\bin\Debug\net8.0\SuporteTecnico.Dominio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\bin\Debug\net8.0\SuporteTecnico.Dominio.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.csproj.AssemblyReference.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.AssemblyInfoInputs.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.AssemblyInfo.cs
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.csproj.CoreCompileInputs.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteT.74166713.Up2Date
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\refint\SuporteTecnico.Repositorio.dll
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.pdb
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\SuporteTecnico.Repositorio.genruntimeconfig.cache
+C:\SuporteTecnico\SuporteTecnico\SuporteTecnico\SuporteTecnico.Repositorio\obj\Debug\net8.0\ref\SuporteTecnico.Repositorio.dll
