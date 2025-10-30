@@ -3,7 +3,7 @@
   <aside class="sidebar">
     <div class="menu-icon-toggle" (click)="toggleSidebar()">☰</div>
     <div class="sidebar-header">
-      </div>
+    </div>
     
     <nav class="sidebar-nav">
       
@@ -15,7 +15,7 @@
         Tickets
       </a>
       
-      </nav>
+    </nav>
     
     <button class="btn-sair" (click)="fazerLogout()">sair</button>
   </aside>
@@ -29,6 +29,7 @@
     </header>
 
     <div class="dashboard-grid">
+      
       <div class="card card-tickets">
         <h3>Últimos Tickets</h3>
         
@@ -50,17 +51,19 @@
                 <span class="status-dot status-green"></span>
                 Boletos Mensalidade (Secretaria)
             </a>
-            
         </div>
 
-        <button class="mostrar-todos" (click)="toggleTickets()">
-            {{ ticketsExpandidos ? 'Mostrar menos' : 'Mostrar todos' }}
-        </button>
+        <div class="card-footer-actions">
+            <button class="mostrar-todos" (click)="toggleTickets()">
+                {{ ticketsExpandidos ? 'Mostrar menos' : 'Mostrar todos' }}
+            </button>
+        </div>
+
       </div>
 
       <div class="card card-clientes">
         <h3>Últimos clientes ativos</h3>
-        
+
         <div class="client-list">
             <div class="client-item-visual">
                 <img src="assets/avatar-coordenador.png" alt="Coordenador" class="small-avatar">
@@ -70,16 +73,10 @@
                 <img src="assets/avatar-secretaria.png" alt="Secretaria" class="small-avatar">
                 Secretaria
             </div>
-
             <div class="client-item-visual" *ngIf="clientesExpandidos">
                 <img src="assets/avatar-direcao.png" alt="Direção" class="small-avatar">
                 Direção
             </div>
-            <div class="client-item-visual" *ngIf="clientesExpandidos">
-                <img src="assets/avatar-rh.png" alt="RH" class="small-avatar">
-                RH
-            </div>
-            
         </div>
 
         <div class="card-footer-actions">
@@ -91,10 +88,15 @@
 
       <div class="card card-performance full-width">
         <h3>Performance do Suporte Técnico</h3>
+        
         <div class="chart-placeholder">
-          Gráfico de Barras Simulado Aqui
+          <canvas baseChart
+              [data]="barChartData"
+              [options]="barChartOptions"
+              [type]="barChartType"
+              [legend]="barChartLegend">
+          </canvas>
         </div>
       </div>
-    </div>
-  </main>
-</div>
+
+    </div> </main> </div> 

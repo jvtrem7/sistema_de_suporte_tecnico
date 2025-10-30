@@ -4,7 +4,7 @@
 
     <nav class="sidebar-nav">
       <a class="nav-item" [routerLink]="['/dashboard']" (click)="navegarEFechar()">Dashboard</a>
-      <a class="nav-item active" [routerLink]="['/tickets']" (click)="navegarEFechar()">Chamados</a>
+      <a class="nav-item active" [routerLink]="['/tickets']" (click)="navegarEFechar()">Tickets</a>
     </nav>
 
     <button class="btn-sair" (click)="fazerLogout()">Sair</button>
@@ -24,10 +24,10 @@
       <div class="actions">
         <div class="header-title">
           <i class="icon-tickets"></i>
-          Chamados
+          Tickets
         </div>
 
-        <button class="btn-create" (click)="criarChamado()">Novo Chamado</button>
+        <button class="btn-create" (click)="criarChamado()">Novo Ticket</button>
         <button class="btn-atualizar-header" (click)="atualizarLista()">Atualizar</button>
       </div>
     </header>
@@ -56,7 +56,6 @@
             <td>{{ c.titulo }}</td>
             <td>{{ c.descricao }}</td>
             
-            <!-- Status com cores -->
             <td>
               <span class="status-btn" 
                     [ngClass]="{
@@ -68,7 +67,6 @@
               </span>
             </td>
 
-            <!-- Setor com cores -->
             <td [ngClass]="{
                   'setor-coordenacao': c.setor === 'Coordenação',
                   'setor-direcao': c.setor === 'Direção',
@@ -88,11 +86,25 @@
       </table>
     </div>
 
-    <div class="status-popup-simulacao" *ngIf="statusPopUpVisivel">
-      <p>Status da Tarefa</p>
-      <p>Aberto = chamado em andamento.</p>
-      <p>Fechado = chamado resolvido.</p>
-      <button (click)="fecharStatusPopUp()">Fechar</button>
-    </div>
+<div class="status-popup-simulacao" *ngIf="statusPopUpVisivel">
+    <h4>Status da Tarefa</h4> 
+    
+    <p class="status-info">
+            <span class="status-indicator-popup status-aberto-popup"></span>
+      <strong>Aberto:</strong>  Chamado recém-criado, aguardando análise.
+    </p>
+    
+    <p class="status-info">
+            <span class="status-indicator-popup status-andamento-popup"></span>
+      <strong>Em Andamento:</strong>  Chamado em processo de resolução.
+    </p>
+
+    <p class="status-info">
+            <span class="status-indicator-popup status-fechado-popup"></span>
+      <strong>Fechado:</strong>  Chamado resolvido.
+    </p>
+
+    <button (click)="fecharStatusPopUp()">Fechar</button>
+</div>
   </main>
 </div>
