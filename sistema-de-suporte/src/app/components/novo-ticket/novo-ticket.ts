@@ -4,8 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { RouterLink, ActivatedRoute, Router } from '@angular/router';
 import { Chamado, ChamadoService } from '../../services/chamado';
 
-// Enum do frontend, sem acento para evitar problemas no código
-export enum Setor {
+// Este enum define o que o USUÁRIO VÊ na tela (com acentos)
+export enum SetorDisplay {
   Coordenacao = 'Coordenação',
   Secretaria = 'Secretaria',
   Direcao = 'Direção',
@@ -25,14 +25,16 @@ export class NovoTicketComponent implements OnInit {
   modoEdicao: boolean = false;
   arquivosSelecionados: File[] = [];
 
-  setores: string[] = Object.values(Setor);
+  // O <select> vai usar esta lista (com acentos)
+  setores: string[] = Object.values(SetorDisplay);
 
+  // O 'setor' no nosso formulário vai ser a string (ex: "Secretaria")
   chamado: Chamado = {
     id: 0,
     titulo: '',
     descricao: '',
     status: 'Aberto',
-    dataAbertura: new Date().toISOString().split('T')[0], // string YYYY-MM-DD
+    dataAbertura: new Date().toISOString(),
     dataFechamento: undefined,
     setor: undefined
   };
@@ -55,12 +57,23 @@ export class NovoTicketComponent implements OnInit {
 
   carregarChamado(id: number): void {
     this.chamadoService.getChamado(id).subscribe({
-      next: (dados: Chamado) => {
+      next: (dados: any) => { // Recebe como 'any' para segurança
+        
+        // --- MAPA REVERSO (NÚMERO -> TEXTO) ---
+        // Converte o que vem do C# (0, 1, 2) para o que o <select> usa (com acento)
+        const reverseEnumMap: { [key: number]: string } = {
+          0: '0 - Coordenação',
+          1: '1 - Secretaria',
+          2: '2 - Direção',
+          3: '3 - RH'
+        };
+
         this.chamado = {
           ...dados,
-          setor: dados.setor || undefined,
-          dataAbertura: dados.dataAbertura,
-          dataFechamento: dados.dataFechamento || undefined
+          // Converte o C# (ex: 1) para o Front-end (ex: "Secretaria")
+          setor: dados.setor !== undefined ? reverseEnumMap[dados.setor] : undefined,
+          dataAbertura: dados.dataAbertura.split('T')[0], 
+          dataFechamento: dados.dataFechamento ? dados.dataFechamento.split('T')[0] : undefined
         };
       },
       error: (err) => console.error('Erro ao carregar chamado:', err)
@@ -76,18 +89,17 @@ export class NovoTicketComponent implements OnInit {
       alert('Título e descrição são obrigatórios.');
       return;
     }
-
-    // 🔹 Mapeia o setor para o valor do enum do backend (com acento)
-    const enumMap: { [key: string]: string } = {
-      'Coordenacao': 'Coordenação',
-      'Direcao': 'Direção',
-      'RH': 'RH',
-      'Secretaria': 'Secretaria'
+   
+    const enumMap: { [key: string]: number } = {
+      'Coordenação': 0,
+      'Secretaria': 1,
+      'Direção': 2,
+      'RH': 3
     };
 
-    const payload: Chamado = {
+    const payload: any = {
       ...this.chamado,
-      setor: enumMap[this.chamado.setor!]
+      setor: enumMap[this.chamado.setor!] 
     };
 
     if (this.modoEdicao) {
@@ -96,15 +108,27 @@ export class NovoTicketComponent implements OnInit {
           alert('Chamado atualizado com sucesso!');
           this.router.navigate(['/tickets']);
         },
-        error: (err) => console.error('Erro ao atualizar:', err)
+        error: (err) => {
+            console.error('Erro ao atualizar:', err);
+            alert('Erro ao atualizar chamado. Verifique o console.');
+        }
       });
     } else {
-      this.chamadoService.criarChamado(payload).subscribe({
+      
+      // Esta parte já está CORRETA (remove 'id' e 'dataFechamento')
+      const payloadBase = { ...payload };
+      const { id, dataFechamento, ...payloadFinal } = payloadBase;
+
+      // 'payloadFinal' agora tem { ... , setor: 1 }
+      this.chamadoService.criarChamado(payloadFinal as Chamado).subscribe({
         next: () => {
           alert('Chamado criado com sucesso!');
           this.router.navigate(['/tickets']);
         },
-        error: (err) => console.error('Erro ao criar:', err)
+        error: (err) => {
+            console.error('Erro ao criar:', err);
+            alert('Erro ao criar chamado. Verifique o console.');
+        }
       });
     }
   }
@@ -116,7 +140,10 @@ export class NovoTicketComponent implements OnInit {
           alert('Chamado excluído com sucesso!');
           this.router.navigate(['/tickets']);
         },
-        error: (err) => console.error('Erro ao excluir:', err)
+        error: (err) => {
+            console.error('Erro ao excluir:', err);
+            alert('Erro ao excluir chamado. Verifique o console.');
+        }
       });
     }
   }

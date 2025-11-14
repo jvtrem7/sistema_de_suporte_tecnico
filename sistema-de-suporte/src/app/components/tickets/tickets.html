@@ -76,9 +76,8 @@
               {{ c.setor }}
             </td>
 
-            <td>{{ c.dataAbertura | date:'short' }}</td>
-            <td>{{ c.dataFechamento ? (c.dataFechamento | date:'short') : '-' }}</td>
-            <td>
+            <td>{{ c.dataAbertura | date:'dd/MM/yyyy' }}</td>
+            <td>{{ c.dataFechamento ? (c.dataFechamento | date:'dd/MM/yyyy') : '-' }}</td>            <td>
               <button class="edit-btn" (click)="editarChamado(c.id)">✏️</button>
             </td>
           </tr>
